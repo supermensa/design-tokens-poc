@@ -1,0 +1,32 @@
+:root {
+  --Collection-1-Desktop-module-max-width: 1200;
+  --Collection-1-Desktop-module-background: #6FC9D5;
+  --Collection-1-Desktop-module-text-color: #FFFFFF;
+  --Collection-1-Desktop-module-title-size: 32;
+  --Collection-1-Desktop-module-text-size: 16;
+  --Collection-1-Desktop-module-text-content: "Marty, don't be such a square. Everybody who's anybody drinks. David, watch your mouth. You come here and kiss your mother before you go, come here. You bet. After I fell off my toilet, I drew this. No, I refuse to except the responsibility.  Jesus, you smoke too? whoa, whoa Doc, stuck here, I can't be stuck here, I got a life in 1985. I got a girl. Hey man, look at Marvin's hand. He can't play with his hands like that, and we can't play without him. Just say anything, George, say what ever's natural, the first thing that comes to your mind. I'm gonna get that son-of-a-bitch.";
+  --Collection-1-Desktop-module-title-content: "Your, your right. Nothing, nothing, nothing, look tell her destiny has brought you together, tell her that she's the most beautiful you have ever seen. ";
+  --Collection-1-Desktop-module-padding: 30;
+  --Collection-1-Desktop-module-min-width: 200;
+  --Collection-1-Desktop-module-font: "Arial";
+  --Collection-1-Desktop-module-spacing-1: 30;
+  --Collection-1-Desktop-module-title-font: "Times new roman";
+  --Collection-1-Desktop-module-font-weight: "bold";
+  --Collection-1-Desktop-js-module-image: "https://media.istockphoto.com/id/871168786/photo/woman-traveler-with-backpack-checks-map-to-find-directions-in-wilderness-area-real-explorer.jpg?s=1024x1024&w=is&k=20&c=p_H4itYmMiVeQmTkszunXlIMgqsBT-MFWkMtT_582io=";
+  --Collection-1-Desktop-module-title-color: #E2FB7F;
+  --Collection-1-Mobile-module-max-width: 400;
+  --Collection-1-Mobile-module-background: #6FC9D5;
+  --Collection-1-Mobile-module-text-color: #FFFFFF;
+  --Collection-1-Mobile-module-title-size: 42;
+  --Collection-1-Mobile-module-text-size: 26;
+  --Collection-1-Mobile-module-text-content: "Marty, don't be such a square. Everybody who's anybody drinks. David, watch your mouth. You come here and kiss your mother before you go, come here. You bet. After I fell off my toilet, I drew this. No, I refuse to except the responsibility.  Jesus, you smoke too? whoa, whoa Doc, stuck here, I can't be stuck here, I got a life in 1985. I got a girl. Hey man, look at Marvin's hand. He can't play with his hands like that, and we can't play without him. Just say anything, George, say what ever's natural, the first thing that comes to your mind. I'm gonna get that son-of-a-bitch.";
+  --Collection-1-Mobile-module-title-content: "Your, your right. Nothing, nothing, nothing, look tell her destiny has brought you together, tell her that she's the most beautiful you have ever seen. ";
+  --Collection-1-Mobile-module-padding: 0;
+  --Collection-1-Mobile-module-min-width: 200;
+  --Collection-1-Mobile-module-font: "Arial";
+  --Collection-1-Mobile-module-spacing-1: 30;
+  --Collection-1-Mobile-module-title-font: "Times new roman";
+  --Collection-1-Mobile-module-font-weight: "bold";
+  --Collection-1-Mobile-js-module-image: "https://media.istockphoto.com/id/871168786/photo/woman-traveler-with-backpack-checks-map-to-find-directions-in-wilderness-area-real-explorer.jpg?s=1024x1024&w=is&k=20&c=p_H4itYmMiVeQmTkszunXlIMgqsBT-MFWkMtT_582io=";
+  --Collection-1-Mobile-module-title-color: #FCFCFC;
+}

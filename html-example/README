@@ -1,0 +1,72 @@
+# Design tokens from Figma to HTML
+
+## Proof of concept
+
+This is just a simple proof of concept of getting `local variables`from Figma into css variables.
+
+## How to
+
+### Figma
+
+1. Setup some custom variables and use them in your Figma components
+2. (Install and) use ["variables2json"](https://www.figma.com/community/plugin/1253571037276959291) plugin in Figma to export the variables.json.
+3. Download the `variables.json` into the `UseTokens/TokensFromFigma` folder
+
+### HTML
+
+4. From root of the `UseTokens` folder, run `node ProcessTokens/generateDesignTokensCss.js` which will output a new design-tokens.css file to UseTokens folder 5. Run index.html via local server, ex. ["VSCode LiveServer"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - or - `npm i` inside UseTokens folder to install `http-server` and then `npm run start`.
+
+---
+
+## Process
+
+In figma we set some variables and use them in our component.
+Via the ["variables2json"](https://www.figma.com/community/plugin/1253571037276959291) figma plugin.
+
+The token we get from figma looks like this:
+
+```json
+{
+  "module-max-width": {
+    "value": 1200,
+    "type": "number",
+    "prefix": "collection_1"
+  },
+  "module-background": {
+    "value": "#6fc9d5",
+    "type": "color",
+    "prefix": "collection_1"
+  },
+  "module-text-color": {
+    "value": "#ffffff",
+    "type": "color",
+    "prefix": "collection_1"
+  } ...
+```
+
+Our small node parser-script we parse the json file
+and output design-tokens.css, which looks like this:
+
+```
+:root {
+  --Collection-1-Mode-1-module-max-width: 1200;
+  --Collection-1-Mode-1-module-background: #6FC9D5;
+  --Collection-1-Mode-1-module-text-color: #FFFFFF;
+  --Collection-1-Mode-1-module-title-size: 32;
+  --Collection-1-Mode-1-module-text-size: 16;
+  ...
+```
+
+In our frontend we've set up our classes to use the variables from Figma, which are now css variables:
+
+```css
+.starterkit-title {
+  font-family: var(--Collection-1-Mode-1-module-title-font);
+  font-size: calc(var(--Collection-1-Mode-1-module-title-size) * 1px);
+  color: var(--Collection-1-Mode-1-module-title-color);
+  font-weight: var(--Collection-1-Mode-1-font-weight);
+  margin-bottom: calc(var(--Collection-1-Mode-1-module-spacing-1) * 1px);
+} ...
+```
+
+---

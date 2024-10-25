@@ -1,0 +1,201 @@
+{
+  "version": "1.0.4",
+  "metadata": {},
+  "collections": [
+    {
+      "name": "Collection 1",
+      "modes": [
+        {
+          "name": "Desktop",
+          "variables": [
+            {
+              "name": "module-max-width",
+              "type": "number",
+              "isAlias": false,
+              "value": 1200
+            },
+            {
+              "name": "module-background",
+              "type": "color",
+              "isAlias": false,
+              "value": "#6FC9D5"
+            },
+            {
+              "name": "module-text-color",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "module-title-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 32
+            },
+            {
+              "name": "module-text-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 16
+            },
+            {
+              "name": "module-text-content",
+              "type": "string",
+              "isAlias": false,
+              "value": "Marty, don't be such a square. Everybody who's anybody drinks. David, watch your mouth. You come here and kiss your mother before you go, come here. You bet. After I fell off my toilet, I drew this. No, I refuse to except the responsibility.  Jesus, you smoke too? whoa, whoa Doc, stuck here, I can't be stuck here, I got a life in 1985. I got a girl. Hey man, look at Marvin's hand. He can't play with his hands like that, and we can't play without him. Just say anything, George, say what ever's natural, the first thing that comes to your mind. I'm gonna get that son-of-a-bitch."
+            },
+            {
+              "name": "module-title-content",
+              "type": "string",
+              "isAlias": false,
+              "value": "Your, your right. Nothing, nothing, nothing, look tell her destiny has brought you together, tell her that she's the most beautiful you have ever seen. "
+            },
+            {
+              "name": "module-padding",
+              "type": "number",
+              "isAlias": false,
+              "value": 30
+            },
+            {
+              "name": "module-min-width",
+              "type": "number",
+              "isAlias": false,
+              "value": 200
+            },
+            {
+              "name": "module-font",
+              "type": "string",
+              "isAlias": false,
+              "value": "Arial"
+            },
+            {
+              "name": "module-spacing-1",
+              "type": "number",
+              "isAlias": false,
+              "value": 30
+            },
+            {
+              "name": "module-title-font",
+              "type": "string",
+              "isAlias": false,
+              "value": "Times new roman"
+            },
+            {
+              "name": "module-font-weight",
+              "type": "string",
+              "isAlias": false,
+              "value": "bold"
+            },
+            {
+              "name": "js-module-image",
+              "type": "string",
+              "isAlias": false,
+              "value": "https://media.istockphoto.com/id/871168786/photo/woman-traveler-with-backpack-checks-map-to-find-directions-in-wilderness-area-real-explorer.jpg?s=1024x1024&w=is&k=20&c=p_H4itYmMiVeQmTkszunXlIMgqsBT-MFWkMtT_582io="
+            },
+            {
+              "name": "module-title-color",
+              "type": "color",
+              "isAlias": false,
+              "value": "#E2FB7F"
+            }
+          ]
+        },
+        {
+          "name": "Mobile",
+          "variables": [
+            {
+              "name": "module-max-width",
+              "type": "number",
+              "isAlias": false,
+              "value": 400
+            },
+            {
+              "name": "module-background",
+              "type": "color",
+              "isAlias": false,
+              "value": "#6FC9D5"
+            },
+            {
+              "name": "module-text-color",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FFFFFF"
+            },
+            {
+              "name": "module-title-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 42
+            },
+            {
+              "name": "module-text-size",
+              "type": "number",
+              "isAlias": false,
+              "value": 26
+            },
+            {
+              "name": "module-text-content",
+              "type": "string",
+              "isAlias": false,
+              "value": "Marty, don't be such a square. Everybody who's anybody drinks. David, watch your mouth. You come here and kiss your mother before you go, come here. You bet. After I fell off my toilet, I drew this. No, I refuse to except the responsibility.  Jesus, you smoke too? whoa, whoa Doc, stuck here, I can't be stuck here, I got a life in 1985. I got a girl. Hey man, look at Marvin's hand. He can't play with his hands like that, and we can't play without him. Just say anything, George, say what ever's natural, the first thing that comes to your mind. I'm gonna get that son-of-a-bitch."
+            },
+            {
+              "name": "module-title-content",
+              "type": "string",
+              "isAlias": false,
+              "value": "Your, your right. Nothing, nothing, nothing, look tell her destiny has brought you together, tell her that she's the most beautiful you have ever seen. "
+            },
+            {
+              "name": "module-padding",
+              "type": "number",
+              "isAlias": false,
+              "value": 0
+            },
+            {
+              "name": "module-min-width",
+              "type": "number",
+              "isAlias": false,
+              "value": 200
+            },
+            {
+              "name": "module-font",
+              "type": "string",
+              "isAlias": false,
+              "value": "Arial"
+            },
+            {
+              "name": "module-spacing-1",
+              "type": "number",
+              "isAlias": false,
+              "value": 30
+            },
+            {
+              "name": "module-title-font",
+              "type": "string",
+              "isAlias": false,
+              "value": "Times new roman"
+            },
+            {
+              "name": "module-font-weight",
+              "type": "string",
+              "isAlias": false,
+              "value": "bold"
+            },
+            {
+              "name": "js-module-image",
+              "type": "string",
+              "isAlias": false,
+              "value": "https://media.istockphoto.com/id/871168786/photo/woman-traveler-with-backpack-checks-map-to-find-directions-in-wilderness-area-real-explorer.jpg?s=1024x1024&w=is&k=20&c=p_H4itYmMiVeQmTkszunXlIMgqsBT-MFWkMtT_582io="
+            },
+            {
+              "name": "module-title-color",
+              "type": "color",
+              "isAlias": false,
+              "value": "#FCFCFC"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

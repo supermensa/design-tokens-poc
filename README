@@ -1,0 +1,20 @@
+# Designers and Frontend Developers using Figma and design tokens
+
+Anders Hornstrup, Senior Frontend Developer, Novicell CPH
+
+## Presentation
+
+Just some markdownfiles of my presentation
+
+## Figma
+
+The Figma file for testing out and exporting variabels/design tokens from figma > json > html
+is included figma-file/design-tokens-poc.fig and can be imported into figma
+
+Here's also a link to a version of our larger Figma components file that shows
+the setup of some of our standard components
+https://www.figma.com/design/GY1nemSGeNZwA0WHCsXHDg/Defining-standard-components-in-Figma?node-id=2119-3080&t=WC2VNcs56L1jeqZj-1
+
+## HTML example
+
+There's a README for how to use this in the html-example folder
